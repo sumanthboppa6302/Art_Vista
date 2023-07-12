@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /*.banner {
+            background-color: #5a1e1e;
+            padding: 20px;
+            text-align: center;
+        }*/
+
+        /*.title {
+            color: #dc0a0a84;
+            font-size: 100px;
+            font-weight: bold;
+            margin: 0;
+            transition: color 0.3s ease;
+        }*/
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-image: url('home.jpg');
+            background-size: cover;
+            background-position: center;
+            transition: background-image 0.3s ease;
+        }
+
+        .gallery-text {
+            font-size: 60px;
+            margin-bottom: 20px;
+            transition: color 0.3s ease;
+            color: #0f0e0e;
+            font-family: "Times New Roman", Times, serif;
+        }
+        h1{
+            font-size: 50px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #070707;
+        }
+
+        .quote {
+            font-size: 18px;
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .quote-author {
+            font-size: 14px;
+            font-weight: bold;
+            text-align: right;
+            transition: color 0.3s ease;
+        }
+
+        .button-container {
+            display: flex;
+            transition: opacity 0.3s ease;
+        }
+
+        .button {
+            margin: 0 10px;
+            padding: 10px 30px;
+            background-color: #804646;
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            font-size: 25px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #945837;
+            transform: scale(1.1);
+        }
+
+        .title:hover,
+        .gallery-text:hover,
+        .quote:hover,
+        .quote-author:hover {
+            color: #FF4500;
+        }
+    </style>
+    <title>ArtVista</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ART_VISTA</h1>
+        <h1 class="gallery-text">WELCOME TO THE WORLD OF ARTS</h1>
+        <p class="gallery-text">Virtual Art Gallery</p>
+        <div class="quote">
+            "Art is the most intense mode of individualism that the world has known."
+            <div class="quote-author">- Oscar Wilde</div>
+        </div>
+        <div class="quote">
+            "Every artist dips his brush in his own soul, and paints his own nature into his pictures."
+            <div class="quote-author">- Henry Ward Beecher</div>
+        </div>
+        <div class="quote">
+            "Art is not freedom from discipline, but disciplined freedom."
+            <div class="quote-author">- John F. Kennedy</div>
+        </div>
+        <div class="button-container">
+            <a href="home.html" class="button">Go to Arts</a>
+        </div>
+    </div>
+</body>
+</html>
